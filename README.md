@@ -12,4 +12,4 @@ Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
 
 # Acesse o site em:
 
-https://stocksite-murex.vercel.app/
+https://mvwebsite.vercel.app/
