@@ -99,9 +99,8 @@ const InfoContent = styled.div`
 
   @media only screen and (max-width: 640px) {
     width: 100%;
-    display: block;
-    font-size: 13px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
@@ -120,11 +119,6 @@ const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   margin-top: 25px;
-
-  @media only screen and (max-width: 640px) {
-    width: 100%;
-    margin-left: 150px;
-  }
 `;
 
 const Button = styled.div`
