@@ -53,10 +53,8 @@ const ChatTextWrap = styled.div`
 
   @media only screen and (max-width: 640px) {
     width: 100%;
-    height: 100%;
-    display: block;
-    font-size: 13px;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
@@ -71,10 +69,6 @@ const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   margin-top: 25px;
-
-  @media only screen and (max-width: 640px) {
-    margin-left: 150px;
-  }
 `;
 
 const Button = styled.div`
